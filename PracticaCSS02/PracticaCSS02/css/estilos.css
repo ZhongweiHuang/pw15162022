@@ -64,7 +64,7 @@ Header input{
     margin-left: 50px;
     width: 30%;
 }
-#Secc01art02 ul{
+#secc01art02 ul{
     list-style: none;
     margin-left: -40px;
 }
@@ -78,10 +78,16 @@ Header input{
     margin-top: 40px;
 }
 
-#secc03art04 input [type="submit"]{
+#secc03art04 input{
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+#secc03art04 input[type="submit"]{
     background: green;
     border: 1px solid green;
     color: white;
+}
 
 #segundaSeccion article{
     margin-right: 165px;
