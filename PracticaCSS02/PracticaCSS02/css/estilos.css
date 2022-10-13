@@ -29,6 +29,12 @@ Header input{
     margin-right: -230px;
 }
 
+#bgoffer{
+    position: relative;
+    left: -35px;
+    top: -406px;
+}
+
 #granthams{
     margin-left: 25px;
     margin-top: 25px;
@@ -52,12 +58,52 @@ Header input{
 #secc01art01{
     margin-left: 30;
     width: 60%;
-
 }
 
 #secc01art02{
     margin-left: 50px;
     width: 30%;
+}
+#Secc01art02 ul{
+    list-style: none;
+    margin-left: -40px;
+}
+
+#secc01art02 ul li:before {
+    color: #FF0099;
+    content: "• ";
+}
+
+#secc03art04{
+    margin-top: 40px;
+}
+
+#secc03art04 input [type="submit"]{
+    background: green;
+    border: 1px solid green;
+    color: white;
+
+#segundaSeccion article{
+    margin-right: 165px;
+    text-align: right; 
+}
+
+#terceraSeccion article{
+    display: inline-block;
+    vertical-align: top;
+    width: 23%;
+}
+
+#terceraSeccion article img{
+    vertical-align: middle;
+}
+
+.colorverde{
+    color: #8BC500;
+}
+
+.colorazul{
+    color: #4267b3;
 }
 
 .colorrosa{
@@ -68,6 +114,9 @@ Header input{
     font-size: 3.5em;
 }
 
-.nitp{
+.letramediana{
+    font-size: 2em;
+}
+.nito{
     font-weight: bold;
 }

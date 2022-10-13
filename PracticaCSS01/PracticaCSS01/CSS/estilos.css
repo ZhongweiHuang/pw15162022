@@ -26,7 +26,7 @@ body{
         border-radius: 5px;
 
     }
-    header nac form input[type="submit"]{
+    header nav form input[type="submit"]{
         background: green;
         border: 1px solid green;
         color: white;
