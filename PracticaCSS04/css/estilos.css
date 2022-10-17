@@ -1,0 +1,31 @@
+body{
+    background-color: #245d92;
+}
+
+header{
+   text-align: center;
+}
+
+header nav{
+    background-color: #efefef;
+    border-radius: 5px;
+    text-align: right;
+}
+
+header nav ul li{
+    display: inline-block;
+   
+}
+
+
+#primerSeccion
+{
+    background-color: #efefef;
+    
+}
+#secc01art01 ul li
+{
+    background-color: #245d92;
+    
+}
+

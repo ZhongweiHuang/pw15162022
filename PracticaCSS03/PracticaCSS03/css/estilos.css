@@ -1,0 +1,33 @@
+body{
+    font-size: 16 px; /*1 em*/
+    margin: 0px auto;
+    /*Recomendacion del cliente*/
+    max-width: 1024px;
+    min-width: 1024px;
+
+}
+
+header nav{
+    /*text-align: center;*/
+    background-color: orange;
+    border-radius: 5px;
+    margin: 0px auto;
+    padding: 2px 0px;
+    width: 99%;
+}
+
+header nav ul li{
+   
+    border-bottom: 1px solid orange;
+    color: white;
+    display: inline-block;
+    font-size: 1em;
+    margin-right: 15px;
+    padding-bottom: 1px;
+
+    /*text-decoration: underline;*/
+
+}
+
+
+
