@@ -1,45 +1,150 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Práctica 4</title>
+    <title>Práctica CSS 04</title>
     <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
 
     <header>
         <img src="img/logo.png" alt="">
+    </header>
+
+    <section id="cuadrantePrincipal">
+
         <nav>
             <ul>
-                <li><img src="img/notificaciones.png" alt=""></li>
+                <li><img src="img/notificaciones.png" alt="" id="imgNotifi"></li>
                 <li><img src="img/mensajes.png" alt=""></li>
                 <li><img src="img/ajustes.png" alt=""></li>
             </ul>
         </nav>
-    </header>
 
-    <section id="primerSeccion">
-        <article id="secc01art01">
-            <img src="img/panel.PNG" alt="">
-            <ul>
-                <li><&sol;>Example</li>
-                <li><&sol;>Example</li>
-                <li><&sol;>Example</li>
-                <li><&sol;>Example</li>
-                <li><&sol;>Example</li>
-                <li><&sol;>Example</li>
-                <li><&sol;>Example</li>
-                <li><&sol;>Example</li>
-                <li><&sol;>Example</li>
-                <li><&sol;>Example</li>
-            </ul>
-        </article>
-    </section>
+        <section id="primerSeccion">
+            
+            <article id="secc01Art01">
+                <article class="titulo" id="plinks">
+                    <img src="img/logolinks.png" alt="" class="centrado" id="logolink">
+                    <span class="letrablanca centrado">Panel with Links</span>
+                </article>
 
+                <ul class="letrablanca">
+                    <li><&sol;> Example</li>
+                    <li><&sol;> Example</li>
+                    <li><&sol;> Example</li>
+                    <li><&sol;> Example</li>
+                    <li><&sol;> Example</li>
+                    <li><&sol;> Example</li>
+                    <li><&sol;> Example</li>
+                    <li><&sol;> Example</li>
+                    <li><&sol;> Example</li>
+                    <li><&sol;> Example</li>
+                </ul>
 
+                </article>
 
+            <article id="secc01Art02">
+                <article class="titulo">
+                    <img src="img/logoprogress.png" alt="" class="centrado" id="logop">
+                    <span class="letrablanca centrado"> Panel with Progress </span>
+                </article>
+                <span>Progress Bar</span>
+                <br>
+                    <img src="img/barra01.png" alt="" class="barra" id="barra1">
+                <br>
+                <span> Progress Bar</span>
+                <br>
+                <img src="img/barra02.png" alt="" class="barra" id="barra2">
+                <br>
+                <span>Progress Bar</span>
+                <br>
+                <img src="img/barra03.png" alt="" class="barra" id="barra3">
+                <br>
+                <span>Progress Bar</span>
+                <br>
+                <img src="img/barra04.png" alt="" class="barra" id="barra4">
+            </article>
 
+        </section>
+        <section id="segundaSeccion">
+            <section id="cubosSeccion">
+                <p class="txtbar" id="titulocubes">Simple Cubes</p>
+
+                <article id="cart01">
+                    <img src="img/cubo1.png" alt="" id="cubo1"><br>
+                    <span class="letrablanca">Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
+                </article>
+
+                <article id="cart02">
+                    <img src="img/cubo02.png" alt="" id="cubo2"><br>
+                    <span class="letrablanca">Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
+                </article>
+
+                <article id="cart03">
+                    <img src="img/cubo03.png" alt="" id="cubo3"><br>
+                    <span class="letrablanca">Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
+                </article>
+
+                <article id="cart04">
+                    <img src="img/cubo04.png" alt="" id="cubo4"><br>
+                    <span class="letrablanca">Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
+                </article>
+
+            </section>
+
+            <section id="panelSeccion">
+                <p class="txtbar" id="titulopanel">
+                    Panels
+                </p>
+
+                <article id="part01">
+                    <img src="img/panels.PNG" alt="">
+                </article>
+
+            </section>
+
+            <section id="usuarioSeccion">
+                <p class="txtbar" id="tituloUsuarios">
+                    Usuarios
+                </p><br>
+
+                <article id="uart01" class="usuarioart">
+                    <img src="img/usuario01.png" alt="" id="usimg1">
+                    <br>
+                    <span class="letrablanca letragrande">USER EXAMPLE</span>
+                    <br>
+                    <input type="submit" value="&sol; Send Message" class="letrablanca">
+                </article>
+
+                <article id="uart02" class="usuarioart">
+                    <img src="img/usuario02.png" alt="" id="usimg2"><br>
+                    <span class="letrablanca letragrande">USER EXAMPLE</span>
+                    <br>
+                    <input type="submit" value="&sol; Send Message" class="letrablanca">
+                </article>
+
+                <article id="uart03" class="usuarioart">
+                    <img src="img/usuario03.png" alt="" id="usimg3"><br>
+                    <span class="letrablanca letragrande">
+                        USER EXAMPLE
+                    </span>
+                    <br>
+                    <input type="submit" value="&sol; Send Message" class="letrablanca">
+                </article>
+
+                <article id="uart04" class="usuarioart">
+                    <img src="img/usuario04.png" alt="" id="usimg4"><br>
+                    <span class="letrablanca letragrande">USER EXAMPLE</span>
+                    <br>
+                    <input type="submit" value="&sol; Send Message" class="letrablanca">
+                </article>
+
+            </section>
+
+        </section>
+</section>
 </body>
 </html>
