@@ -1,0 +1,120 @@
+/*Tiene un atributo alt*/
+img[alt]{
+    border: 5px solid blue;
+
+}
+
+/*Simbolo de igual nos ayuda identificar 
+la cadena completa
+*/
+img[src="img/Logo Tec de culiacan.png"]{
+    width:400px ;
+}
+
+/*Simbolo de circunflejo nos ayuda identificar 
+al inicio de la cadena
+*/
+img[src^="img/"]
+{
+    width: 150px;
+}
+
+/*Simbolo de peso nos ayuda identificar 
+al final de la cadena, para el siguiente caso
+busca la extension png*/
+img[src$="png"]{
+    width: 250px;
+}
+
+/*El simbolo *= nos ayuda identicar cualquier parte
+de la cadena original*/
+img[src*="mg/"]{
+    width: 1000px;
+}
+
+/*Equivalente a resaltado*
+.resaltado
+.ingles
+.archivo*/
+
+article[class~="resaltado"]{
+    border: 1px dashed blue;
+}
+
+article[class~="ingles"]{
+    border: 1px dashed red;
+}
+
+article[class~="archivo"]{
+    border: 1px dashed green;
+}
+
+article[class|="ingles"]{
+    text-align: center;
+}
+
+/*--------------------------*/
+
+/*Hace referencia a los hijos directos del div*/
+div > p{
+    color: blue;
+}
+
+/*Hace referencia a todo del div*/
+div p{
+    color: red;
+}
+
+/*H2*/
+
+/*El simbolo + significa el siguiente elemento 
+despues de la izquierda, en el siguiente caso
+se pondra de color gris solamente el primer parrafo 
+despues del header 2*/
+h2 + p{
+    color: gray;
+}
+
+/*El simbolo ~ toma todos los elementos.
+en el siguiente caso despues de h2 todos 
+los parrafos se pondrade color verde*/
+h2 ~ p{
+    color:green
+}
+
+/*Secciones*/
+
+#resumen,#experimento,#pruebas,#resultados,#conclusiones{
+    color: red;
+}
+
+/*Poner todos en azul excepto referencias*/
+section:not(#referencias){
+    color: blue;
+}
+
+/*impar*/
+li:nth-child(odd){
+    color: green;
+}
+
+/*Par*/
+li:nth-child(even){
+    color: blue;
+}
+
+/*Quinto elemento de la lista*/
+li:nth-child(5){
+    color: red;
+}
+
+/*El penultimo elemento de la lista (noveno)*/
+li:nth-last-child(2){
+    color: purple;
+}
+
+/*Poner el primer renglon del parrafo en color rojo nito*/
+p:first-line{
+    color:red;
+    font-weight: bold;
+}
