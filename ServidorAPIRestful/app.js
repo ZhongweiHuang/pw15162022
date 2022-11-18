@@ -12,7 +12,7 @@ var conexion = mysql.createConnection({
 
 });
 
-//Nos conectamos
+// Nos conectamos
 conexion.connect(function(error){
     if(error){
         throw error;
@@ -21,11 +21,12 @@ conexion.connect(function(error){
     }
 })
 
-
+//
 app.get('/', function(req, res){
     res.send('Ruta de inicio del servidor')
 }) 
 
+//
 app.get('/api/articulos',(req,res)=>{
     conexion.query('SELECT * FROM articulos',(error, filas)=>{
         if(error){
@@ -47,9 +48,7 @@ app.get('/api/articulos/:id',(req,res)=>{
     })
 })
 
-
-
-
+//
 app.listen('3000',function(){
     console.log('Servidor en linea...OK en el puerto 3000')
 })
